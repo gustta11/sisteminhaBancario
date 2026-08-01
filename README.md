@@ -1,10 +1,12 @@
 # 💳 Sisteminha Bancário
 
-Projeto desenvolvido em **C#** com o objetivo de **praticar a manipulação de arquivos**, utilizando um sistema bancário simples como cenário para aplicar os conceitos aprendidos.
+Projeto desenvolvido em **C#** com o objetivo de praticar a **manipulação de arquivos** utilizando a biblioteca `System.IO`, tendo um sistema bancário simples como cenário para aplicar os conceitos aprendidos.
 
 ## 📌 Sobre o Projeto
 
-Este projeto foi criado exclusivamente para fins de estudo, com foco na leitura, escrita e gerenciamento de arquivos em C#. As operações bancárias servem como contexto para exercitar a persistência de dados e a organização do código utilizando Programação Orientada a Objetos (POO).
+Este projeto foi criado exclusivamente para fins de estudo, com foco na manipulação de arquivos em C# e na aplicação de conceitos de Programação Orientada a Objetos (POO). O sistema simula operações bancárias básicas e utiliza operações de leitura e escrita em arquivos para praticar o uso da biblioteca `System.IO`.
+
+> **Observação:** Este projeto **não utiliza banco de dados** e **não possui persistência de dados entre as execuções** da aplicação. Seu objetivo é exclusivamente exercitar a manipulação de arquivos.
 
 ## 🚀 Funcionalidades
 
@@ -12,15 +14,15 @@ Este projeto foi criado exclusivamente para fins de estudo, com foco na leitura,
 - Consulta de informações da conta
 - Depósitos
 - Saques
-- Persistência dos dados em arquivos
-- Leitura e atualização das informações armazenadas
+- Leitura de arquivos
+- Escrita de arquivos utilizando `System.IO`
 
 ## 🛠️ Tecnologias Utilizadas
 
 - C#
 - .NET
 - Programação Orientada a Objetos (POO)
-- Manipulação de arquivos (`System.IO`)
+- `System.IO`
 - Visual Studio
 
 ## ▶️ Como Executar
@@ -47,18 +49,17 @@ Ou abra a solução no **Visual Studio** e execute o projeto.
 
 ## 📖 Conceitos Praticados
 
-- Manipulação de arquivos
-- Leitura e escrita de dados
+- Manipulação de arquivos com `System.IO`
+- Leitura e escrita de arquivos
 - Programação Orientada a Objetos (POO)
 - Classes e Objetos
 - Encapsulamento
 - Métodos e propriedades
 - Organização de código
-- Tratamento básico de operações
 
 ## 🎯 Objetivo
 
-O principal objetivo deste projeto foi praticar a manipulação de arquivos em C#, compreendendo como armazenar, recuperar e atualizar informações de forma persistente. O sistema bancário foi utilizado apenas como um cenário para aplicar esses conceitos de maneira prática.
+O principal objetivo deste projeto foi praticar a manipulação de arquivos em C#, explorando operações de leitura e escrita utilizando a biblioteca `System.IO`. O sistema bancário foi utilizado apenas como um contexto para aplicar esses conceitos de forma prática e consolidar conhecimentos em Programação Orientada a Objetos.
 
 ## 👨‍💻 Autor
 
